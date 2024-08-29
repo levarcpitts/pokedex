@@ -1,23 +1,49 @@
 .red-background {
-    background-color: red;
-    border-radius: 30px;
-    width: 96%;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
-    position: fixed; 
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    -webkit-box-shadow: 9px 11px 20px -4px rgba(0,0,0,0.75);
-    -moz-box-shadow: 9px 11px 20px -4px rgba(0,0,0,0.75);
-    box-shadow: 9px 11px 20px -4px rgba(0,0,0,0.75);
-  }
+  background-color: red;
+  border-radius: 30px;
+  width: 96%;
+  height: 80px; 
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  margin: 0 auto;
+  position: fixed; 
+  top: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-box-shadow: 9px 11px 20px -4px rgba(0,0,0,0.75);
+  -moz-box-shadow: 9px 11px 20px -4px rgba(0,0,0,0.75);
+  box-shadow: 9px 11px 20px -4px rgba(0,0,0,0.75);
+}
 
-  .header-image {
-    margin-left: 10px; /* Adjust spacing as needed */
-    height: 100%;
-    height: 100px; /* Ensures the image fits within the header */
-    width: auto; /* Maintains the aspect ratio of the image */
-} 
+.header-image {
+  margin-left: 20px; 
+  height: 150px; 
+  width: auto; 
+justify-content: center;
+}
+
+.search-bar {
+  margin-right: 20px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-bar input[type="text"] {
+  padding: 10px;
+  border-radius: 15px; 
+  border: none; 
+  outline: none; 
+  width: 300px; 
+  background-color: #eee; 
+}
+
+.search-bar::before {
+  display: inline-block;
+  background-color: #eee; 
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}

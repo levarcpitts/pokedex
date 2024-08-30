@@ -48,6 +48,13 @@ function HomePage() {
                 <strong className="pokemon-name">{poke.name}</strong>
                 <span className="pokemon-number">{poke.number}</span>
               </div>
+              <div className="pokemon-about">
+                <h2>About</h2>
+                <p><strong>Species: </strong>{poke.species}</p>
+                <p><strong>Height: </strong>{poke.height}</p>
+                <p><strong>Weight: </strong>{poke.weight}</p>
+                <p><strong>Abilities: </strong>{poke.abilities.join(', ')}</p>
+              </div>
             </div>
           </div>
         ))}

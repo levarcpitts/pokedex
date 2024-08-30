@@ -1,0 +1,16 @@
+.red-background {
+    background-color: red;
+    border-radius: 50px;
+    width: 95%; 
+    height: 80px;  
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    margin: 0 auto;
+    position: relative; 
+    top: 5px;
+    -webkit-box-shadow: 9px 11px 20px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 9px 11px 20px -4px rgba(0,0,0,0.75);
+    box-shadow: 9px 11px 20px -4px rgba(0,0,0,0.75);
+  }
+  
